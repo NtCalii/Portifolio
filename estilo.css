@@ -232,7 +232,7 @@ header span{
     position: relative;
     overflow: hidden;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    transition: ease 0.3s;
+    transition: ease-in-out 0.3s;
 }
 .card1 p {
     height: 100%;
@@ -274,7 +274,7 @@ header span{
     position: relative;
     overflow: hidden;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    transition: ease 0.3s;
+    transition: ease-in-out 0.3s;
 }
 .card2 p {
     height: 100%;
@@ -316,7 +316,7 @@ header span{
     position: relative;
     overflow: hidden;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    transition: ease 0.3s;
+    transition: ease-in-out 0.3s;
 }
 .card3 p {
     height: 100%;
@@ -358,7 +358,7 @@ header span{
     position: relative;
     overflow: hidden;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    transition: ease 0.3s;
+    transition: ease-in-out 0.3s;
 }
 .card4 p {
     height: 100%;
@@ -400,7 +400,7 @@ header span{
     position: relative;
     overflow: hidden;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    transition: ease 0.3s;
+    transition: ease-in-out 0.3s;
 }
 .card5 p {
     height: 100%;
@@ -442,7 +442,7 @@ header span{
     position: relative;
     overflow: hidden;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    transition: ease 0.3s;
+    transition: ease-in-out 0.3s;
 }
 .card6 p {
     height: 100%;
@@ -484,7 +484,7 @@ header span{
     position: relative;
     overflow: hidden;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    transition: ease 0.3s;
+    transition: ease-in-out 0.3s;
 }
 .card7 p {
     height: 100%;
@@ -526,7 +526,7 @@ header span{
     position: relative;
     overflow: hidden;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    transition: ease 0.3s;
+    transition: ease-in-out 0.3s;
 }
 .card8 p {
     height: 100%;
@@ -576,7 +576,7 @@ header span{
     text-shadow: 5px 4px 2px black;
     animation: aparecerABTN 3s ease-in-out;
     animation-timeline: view();
-    animation-range: cover 0% cover 40%;
+    animation-range: cover 0% cover 30%;
 }
 .projeto{
     display: flex;
@@ -586,7 +586,7 @@ header span{
     border: 3px solid rgb(184, 47, 47);
     border-radius: 50px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    transition: ease 0.3s;
+    transition: ease-in-out 0.5s;
     background: black;
     color: white;
     animation: aparecerABTN 3s ease-in-out;
@@ -609,7 +609,6 @@ header span{
 .titulo{
   display: flex;
   align-items: center;
-  gap: 30%;
   flex-wrap: wrap;
   justify-content: space-between;
 }

@@ -1,0 +1,646 @@
+
+/*Celulares pequenos*/
+@media screen and (max-width: 374px) {
+    /*inicio nav*/
+    nav{
+        justify-content: space-between;
+        font-size: 1rem;
+        height: 80px;
+    }
+    nav h2{
+        font-size: 1rem;
+    }
+    /*final nav*/
+
+    /*inicio header*/
+    header{
+        padding-top: 2rem;
+        height: 800px;
+    }
+    header img{
+        flex: 100%;
+        margin: 0 10%;
+        border-radius:30%;
+        height: 40%;
+    }
+    .cabeca{
+        flex: 100%;
+        margin: 0 5%;
+    }
+    .cabeca h2{
+        margin-top: 2rem;
+        font-size: 1.6rem;
+    }
+    .cabeca p{
+        font-size: 1rem;
+    }
+    .cabeca a{
+        display: block;
+        margin-bottom: 4%;
+        font-size: 1rem;
+        text-align: center;
+    }
+    header span{
+        display: none;
+    }
+    @keyframes aparecerIMG{
+        0%{
+            translate: -110vw 0;
+        }
+        100%{
+            translate: 0 0;
+        }
+    }
+    @keyframes aparecerH{
+        0%{
+            translate: 0 -140vw;
+        }
+        100%{
+            translate: 0 0;
+        }
+    }
+    @keyframes aparecerP{
+        0%{
+            translate: 110vw 0;
+        }
+        100%{
+            translate: 0 0;
+        }
+    }
+    /*final header*/
+
+    /*inicio section1*/
+    .section1{
+        padding-top: 2rem;
+        height: auto;
+    }
+    .section1 h1{
+        font-size: 2rem;
+    }
+    .card{
+        animation-range: cover 0% cover 17%;
+        transition: ease-in-out 0.3s;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card1, .card2, .card3, .card4, .card5, .card6, .card7 , .card8{
+        margin: 2rem 10%;
+        width: 50%;
+        height: 180px;
+    }
+    [class^="card"] p {
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+    /*final section1*/
+
+    /*inicio projetos*/
+    #projetos{
+        padding-top: 2rem;
+    }
+    #projetos h1{
+        font-size: 2rem;
+        animation-range: cover 0% cover 15%;
+    }
+    .projeto{
+        margin: 5% 10%;
+        width: 80%;
+        height: auto;
+        overflow: hidden;
+        flex-direction: column;
+        animation-range: cover 0% cover 17%;
+    }
+    .projeto img{
+        width: 100%;
+        height: 200px;
+        border-bottom: 2px solid rgb(184, 47, 47);
+        border-radius: 46px 46px 0 0;
+    }
+    .texto{
+        width: 100%;
+        gap: 15px;
+    }
+    .titulo{
+        margin-top: 3%;    
+    }
+    .titulo h2{
+        font-size: 1.2rem;
+        padding: 3%;
+    }
+    .titulo a{
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+    .projeto p {
+        font-size: 1rem;
+        padding: 15px;
+    }
+    /*fianl sprojetos*/
+}
+
+/*Celulares médios*/
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    /*inicio nav*/
+    nav{
+        justify-content: space-between;
+        font-size: 1.2rem;
+        height: 80px;
+    }
+    nav h2{
+        font-size: 1.1rem;
+    }
+    /*final nav*/
+
+    /*inicio header*/
+    header{
+        padding-top: 2rem;
+        height: 800px;
+    }
+    header img{
+        flex: 100%;
+        margin: 0 10%;
+        border-radius:30%;
+        height: 40%;
+    }
+    .cabeca{
+        flex: 100%;
+        margin: 0 5%;
+    }
+    .cabeca h2{
+        margin-top: 2rem;
+        font-size: 1.7rem;
+    }
+    .cabeca p{
+        font-size: 1.2rem;
+    }
+    .cabeca a{
+        display: block;
+        margin-bottom: 4%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    header span{
+        display: none;
+    }
+    @keyframes aparecerIMG{
+        0%{
+            translate: -110vw 0;
+        }
+        100%{
+            translate: 0 0;
+        }
+    }
+    @keyframes aparecerH{
+        0%{
+            translate: 0 -140vw;
+        }
+        100%{
+            translate: 0 0;
+        }
+    }
+    @keyframes aparecerP{
+        0%{
+            translate: 110vw 0;
+        }
+        100%{
+            translate: 0 0;
+        }
+    }
+    /*final header*/
+
+    /*inicio section1*/
+    .section1{
+        padding-top: 2rem;
+        height: auto;
+    }
+    .section1 h1{
+        font-size: 2rem;
+    }
+    .card{
+        animation-range: cover 0% cover 17%;
+        transition: ease-in-out 0.3s;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card1, .card2, .card3, .card4, .card5, .card6, .card7 , .card8{
+        margin: 2rem 10%;
+        width: 50%;
+        height: 180px;
+    }
+    [class^="card"] p {
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+    /*final section1*/
+
+    /*inicio projetos*/
+    #projetos{
+        padding-top: 2rem;
+    }
+    #projetos h1{
+        font-size: 2rem;
+        animation-range: cover 0% cover 15%;
+    }
+    .projeto{
+        margin: 5% 10%;
+        width: 80%;
+        height: auto;
+        overflow: hidden;
+        flex-direction: column;
+        animation-range: cover 0% cover 17%;
+    }
+    .projeto img{
+        width: 100%;
+        height: 200px;
+        border-bottom: 2px solid rgb(184, 47, 47);
+        border-radius: 46px 46px 0 0;
+    }
+    .texto{
+        width: 100%;
+        gap: 15px;
+    }
+    .titulo{
+        margin-top: 3%;    
+    }
+    .titulo h2{
+        font-size: 1.2rem;
+        padding: 3%;
+    }
+    .titulo a{
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+    .projeto p {
+        font-size: 1rem;
+        padding: 15px;
+    }
+    /*fianl sprojetos*/
+}
+
+/*Celulares grandes e phablets*/
+@media screen and (min-width: 425px) and (max-width: 767px){
+    /*inicio nav*/
+    nav{
+        justify-content: space-between;
+        font-size: 1.3rem;
+        height: 80px;
+    }
+    nav h2{
+        font-size: 1.1rem;
+    }
+    /*final nav*/
+
+    /*inicio header*/
+    header{
+        padding-top: 2rem;
+        height: 800px;
+    }
+    header img{
+        flex: 100%;
+        margin: 0 10%;
+        border-radius:30%;
+        height: 40%;
+    }
+    .cabeca{
+        flex: 100%;
+        margin: 0 5%;
+    }
+    .cabeca h2{
+        font-size: 1.7rem;
+    }
+    .cabeca p{
+        font-size: 1.2rem;
+    }
+    .cabeca a{
+        display: block;
+        margin-bottom: 4%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    header span{
+        display: none;
+    }
+    @keyframes aparecerIMG{
+        0%{
+            translate: -110vw 0;
+        }
+        100%{
+            translate: 0 0;
+        }
+    }
+    @keyframes aparecerH{
+        0%{
+            translate: 0 -140vw;
+        }
+        100%{
+            translate: 0 0;
+        }
+    }
+    @keyframes aparecerP{
+        0%{
+            translate: 110vw 0;
+        }
+        100%{
+            translate: 0 0;
+        }
+    }
+    /*final header*/
+
+    /*inicio section1*/
+    .section1{
+        padding-top: 2rem;
+        height: auto;
+    }
+    .section1 h1{
+        font-size: 2rem;
+    }
+    .card{
+        animation-range: cover 0% cover 20%;
+        transition: ease-in-out 0.3s;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card1, .card2, .card3, .card4, .card5, .card6, .card7 , .card8{
+        margin: 2rem 10%;
+        width: 50%;
+        height: 180px;
+    }
+    [class^="card"] p {
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+    /*final section1*/
+
+    /*inicio projetos*/
+    #projetos{
+        padding-top: 2rem;
+    }
+    #projetos h1{
+        font-size: 2rem;
+        animation-range: cover 0% cover 15%;
+    }
+    .projeto{
+        margin: 5% 10%;
+        width: 80%;
+        height: auto;
+        overflow: hidden;
+        flex-direction: column;
+        animation-range: cover 0% cover 17%;
+    }
+    .projeto img{
+        width: 100%;
+        height: 200px;
+        border-bottom: 2px solid rgb(184, 47, 47);
+        border-radius: 46px 46px 0 0;
+    }
+    .texto{
+        width: 100%;
+        gap: 15px;
+    }
+    .titulo{
+        margin-top: 3%;
+    }
+    .titulo h2{
+        font-size: 1.2rem;
+    }
+    .titulo a{
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+    .projeto p {
+        font-size: 1rem;
+        padding: 15px;
+    }
+    /*fianl sprojetos*/
+}
+
+/*Tablets*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    /*inicio header*/
+    header{
+        padding-top: 2rem;
+        width: 100%;
+        height: 600px;
+    }
+    header img{
+        height: 54%;
+    }
+    .cabeca h2{
+        font-size: 1.4rem;
+    }
+    .cabeca p{
+        font-size: 1rem;
+    }
+    .cabeca a{
+        display: block;
+        text-align: center;
+        margin-top: 4%;
+        font-size: 1rem;
+    }
+    header span{
+        margin: 0 0 3rem 3rem;
+    }
+    /*final header*/
+
+    /*inicio section1*/
+    .card1{
+        margin: 3% 2% 3% 10%;
+        width: 18.5%;
+        height: 180px;
+    }
+    .card1 p{
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    .card2{
+        margin: 3% 2% 3% 0;
+        width: 18.5%;
+        height: 180px;
+    }
+    .card2 p{
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    .card3{
+        margin: 3% 2% 3% 0;
+        width: 18.5%;
+        height: 180px;
+    }
+    .card3 p{
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    .card4{
+        margin: 3% 10% 3% 0;
+        width: 18.5%;
+        height: 180px;
+    }
+    .card4 p{
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    .card5{
+        margin: 3% 2% 3% 10%;
+        width: 18.5%;
+        height: 180px;
+    }
+    .card5 p{
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    .card6{
+        margin: 3% 2% 3% 0;
+        width: 18.5%;
+        height: 180px;
+    }
+    .card6 p{
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    .card7{
+        margin: 3% 2% 3% 0;
+        width: 18.5%;
+        height: 180px;
+    }
+    .card7 p{
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    .card8{
+        margin: 3% 10% 3% 0;
+        width: 18.5%;
+        height: 180px;
+    }
+    .card8 p{
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    /*final section1*/
+
+    /*inicio projetos*/
+    .projeto{
+    height: 150px;
+    }
+    .titulo h2{
+      font-size: 1.4rem;
+    }
+    .titulo a{
+      font-size: 1.2rem;
+    }
+    .projeto p {
+      font-size: 0.9rem;
+    }
+    /*final projetos*/
+}
+
+/*Desktops*/
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    /*inicio header*/
+    header{
+        padding-top: 2rem;
+        width: 100%;
+        height: 600px;
+    }
+    header img{
+        flex: 40%;
+        height: 65%;
+    }
+    .cabeca h2{
+        font-size: 1.7rem;
+    }
+    .cabeca p{
+        font-size: 1.2em;
+    }
+    .cabeca a{
+        font-size: 1.1rem;
+    }
+    header span{
+        margin: 0 0 3rem 3.5rem;
+    }
+    /*final header*/
+
+    /*inicio section1*/
+    .card1{
+        margin: 3% 2% 3% 10%;
+        width: 18.5%;
+    }
+    .card1 p{
+        font-size: 0.9rem;
+        padding: 7px;
+    }
+    .card2{
+        margin: 3% 2% 3% 0;
+        width: 18.5%;
+    }
+    .card2 p{
+        font-size: 0.9rem;
+        padding: 7px;
+    }
+    .card3{
+        margin: 3% 2% 3% 0;
+        width: 18.5%;
+    }
+    .card3 p{
+        font-size: 0.9rem;
+        padding: 7px;
+    }
+    .card4{
+        margin: 3% 10% 3% 0;
+        width: 18.5%;
+    }
+    .card4 p{
+        font-size: 0.9rem;
+        padding: 7px;
+    }
+    .card5{
+        margin: 3% 2% 3% 10%;
+        width: 18.5%;
+    }
+    .card5 p{
+        font-size: 0.9rem;
+        padding: 7px;
+    }
+    .card6{
+        margin: 3% 2% 3% 0;
+        width: 18.5%;
+    }
+    .card6 p{
+        font-size: 0.9rem;
+        padding: 7px;
+    }
+    .card7{
+        margin: 3% 2% 3% 0;
+        width: 18.5%;
+    }
+    .card7 p{
+        font-size: 0.9rem;
+        padding: 7px;
+    }
+    .card8{
+        margin: 3% 10% 3% 0;
+        width: 18.5%;
+    }
+    .card8 p{
+        font-size: 0.9rem;
+        padding: 7px;
+    }
+    /*final section1*/
+
+    /*inicio projetos*/
+    .projeto{
+    height: 180px;
+    }
+    .titulo h2{
+      font-size: 1.7rem;
+    }
+    .titulo a{
+      font-size: 1.3rem;
+    }
+    .projeto p {
+      font-size: 1rem;
+    }
+    /*final projetos*/
+}
